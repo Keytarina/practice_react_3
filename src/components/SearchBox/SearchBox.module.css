@@ -1,0 +1,16 @@
+input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
