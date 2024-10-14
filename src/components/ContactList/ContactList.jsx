@@ -1,10 +1,10 @@
 import Contact from "../Contact/Contact";
 import css from "./ContactList.module.css";
 
-export default function ContactList({ filtredContacts, handleDeleteContact }) {
+export default function ContactList({ filteredContacts, handleDeleteContact }) {
 	return (
 		<ul className={css.contact_list}>
-			{filtredContacts.map((contact) => {
+			{filteredContacts.map((contact) => {
 				return (
 					<Contact
 						key={contact.id}
